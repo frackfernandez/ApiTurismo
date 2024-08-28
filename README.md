@@ -1,14 +1,14 @@
 # ApiTurismo
 
-ApiTurismo es un proyecto desarrollado para gestionar recorridos(viajes y pasajeros) e informacion de destinos(ciudades). Esta solución, basada en una API RESTful, fue implementada utilizando ASP.NET Core y Entity Framework Core, aplicando los principios de arquitectura limpia.
+ApiTurismo es un proyecto desarrollado para gestionar recorridos(viajes y pasajeros) e informacion de destinos(ciudades). Esta soluciï¿½n, basada en una API REST, fue implementada utilizando ASP.NET Core y Entity Framework Core, aplicando los principios de arquitectura limpia.
 
 ## Arquitectura
 
-El proyecto está estructurado en diferentes capas y bibliotecas de clases que interactúan entre sí para manejar las funciones de la aplicación. A continuación, se detallan los componentes principales.
+El proyecto estï¿½ estructurado en diferentes capas y bibliotecas de clases que interactï¿½an entre sï¿½ para manejar las funciones de la aplicaciï¿½n. A continuaciï¿½n, se detallan los componentes principales.
 
 ![Diagrama de la arquitectura](arquitectura.png)
 
-## Instalación
+## Instalaciï¿½n
 
 ### Requisitos basicos
 
@@ -29,15 +29,15 @@ El proyecto está estructurado en diferentes capas y bibliotecas de clases que in
     dotnet restore
     ```
 
-3. **Configurar la cadena de conexión de la base de datos:**
+3. **Configura la cadena de conexiï¿½n de la base de datos:**
 
-    Abre el archivo `appsettings.json` en la carpeta `API` y actualiza la cadena de conexión.
+    Abre el archivo `appsettings.json` en la carpeta `API` y actualiza la cadena de conexiï¿½n.
     
-4. **Configurar las credenciales del servidor SMTP:**
+4. **Configura las credenciales del servidor SMTP:**
 
     Abre el archivo `ServiceEmail.cs` en la carpeta `Services` y actualiza las credenciales.
 
-5. **Aplicar migraciones y actualiza la base de datos:**
+5. **Aplica las migraciones y actualiza la base de datos:**
 
     Ejecuta el siguiente comando para aplicar las migraciones a la base de datos:
 
@@ -45,15 +45,15 @@ El proyecto está estructurado en diferentes capas y bibliotecas de clases que in
     dotnet ef database update --project TurismoApp.Infraestructure
     ```
 
-    Alternativamente, si prefieres ejecutar la migración manualmente en tu PC, puedes utilizar los siguientes comandos en la consola del administrador de paquetes o en la terminal de comandos:
+    Alternativamente, si prefieres ejecutar la migraciï¿½n manualmente en tu PC, puedes utilizar los siguientes comandos en la consola del administrador de paquetes o en la terminal de comandos:
 
-    Crear la migración:
+    Crear la migraciï¿½n:
 
     ```bash
     Add-Migration Inicial -Project TurismoApp.Infraestructure
     ```
 
-    Aplicar la migración a la base de datos:
+    Aplicar la migraciï¿½n a la base de datos:
 
     ```bash
     Update-Database -Project TurismoApp.Infraestructure
@@ -65,8 +65,8 @@ El proyecto está estructurado en diferentes capas y bibliotecas de clases que in
 
 ## Contribuciones
 
-Se agradecen las contribuciones. Por favor, sigue el proceso habitual en GitHub para realizar un fork, crea una rama, haz los cambios y envía un pull request.
+Se agradecen las contribuciones. Por favor, sigue el proceso habitual en GitHub para realizar un fork, crea una rama, haz los cambios y envï¿½a un pull request.
 
 ## Licencia
 
-Este proyecto está bajo la [MIT License](https://opensource.org/licenses/MIT).
+Este proyecto estï¿½ bajo la [MIT License](https://opensource.org/licenses/MIT).
