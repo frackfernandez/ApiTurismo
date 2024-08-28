@@ -1,14 +1,14 @@
 # ApiTurismo
 
-ApiTurismo es un proyecto desarrollado para gestionar recorridos(viajes y pasajeros) e informacion de destinos(ciudades). Esta soluci�n, basada en una API REST, fue implementada utilizando ASP.NET Core y Entity Framework Core, aplicando los principios de arquitectura limpia.
+ApiTurismo es un proyecto desarrollado para gestionar recorridos(viajes y pasajeros) e informacion de destinos(ciudades). Esta solución, basada en una API REST, fue implementada utilizando ASP.NET Core y Entity Framework Core, aplicando los principios de arquitectura limpia.
 
 ## Arquitectura
 
-El proyecto est� estructurado en diferentes capas y bibliotecas de clases que interact�an entre s� para manejar las funciones de la aplicaci�n. A continuaci�n, se detallan los componentes principales.
+El proyecto está estructurado en diferentes capas y bibliotecas de clases que interactúan entre sí para manejar las funciones de la aplicación. A continuación, se detallan los componentes principales.
 
 ![Diagrama de la arquitectura](arquitectura.png)
 
-## Instalaci�n
+## Instalación
 
 ### Requisitos basicos
 
@@ -45,15 +45,15 @@ El proyecto est� estructurado en diferentes capas y bibliotecas de clases que 
     dotnet ef database update --project TurismoApp.Infraestructure
     ```
 
-    Alternativamente, si prefieres ejecutar la migraci�n manualmente en tu PC, puedes utilizar los siguientes comandos en la consola del administrador de paquetes o en la terminal de comandos:
+    Alternativamente, si prefieres ejecutar la migración manualmente en tu PC, puedes utilizar los siguientes comandos en la consola del administrador de paquetes o en la terminal de comandos:
 
-    Crear la migraci�n:
+    Crear la migración:
 
     ```bash
     Add-Migration Inicial -Project TurismoApp.Infraestructure
     ```
 
-    Aplicar la migraci�n a la base de datos:
+    Aplicar la migración a la base de datos:
 
     ```bash
     Update-Database -Project TurismoApp.Infraestructure
@@ -65,8 +65,8 @@ El proyecto est� estructurado en diferentes capas y bibliotecas de clases que 
 
 ## Contribuciones
 
-Se agradecen las contribuciones. Por favor, sigue el proceso habitual en GitHub para realizar un fork, crea una rama, haz los cambios y env�a un pull request.
+Se agradecen las contribuciones. Por favor, sigue el proceso habitual en GitHub para realizar un fork, crea una rama, haz los cambios y envía un pull request.
 
 ## Licencia
 
-Este proyecto est� bajo la [MIT License](https://opensource.org/licenses/MIT).
+Este proyecto está bajo la [MIT License](https://opensource.org/licenses/MIT).
